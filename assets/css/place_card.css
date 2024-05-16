@@ -1,0 +1,74 @@
+body {
+    font-family: Cambria;
+    background-color: #ddd;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.place {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid #f00;
+    background-color: #fff;
+}
+
+img {
+    width: 300px;
+    border-bottom: 5px solid #f00;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-bottom: 0;
+    border-top: 10px solid #f00;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+}
+
+.card-header-custom {
+    position: relative;
+}
+
+.text-float {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-style: normal;
+    width: 300px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+
+    
+}
+
+.card-body > p {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+p.card-description {
+    font-size: medium;
+    padding: 10px;
+}
+
+button {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
